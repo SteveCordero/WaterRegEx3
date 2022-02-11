@@ -75,6 +75,33 @@ class RegExWater3Test {
         test.validateInfo();
     }
 
+    @Test
+    void isN10ValidWaterAge000sd0ValidWaterIDtest90909ValidName(){
+        RegExWater3 test = new RegExWater3();
+        test.setWaterID("000sd0");
+        test.setName("test90909");
+        test.setWaterAge("-10");
+        test.validateInfo();
+    }
+
+    @Test
+    void isN1ValidWaterAge1010101ValidWaterID(){
+        RegExWater3 test = new RegExWater3();
+        test.setWaterID("1010101");
+        test.setName("test");
+        test.setWaterAge("-1");
+        test.validateInfo();
+    }
+
+    @Test
+    void is10000000000ValidWaterAgeNtestValidName(){
+        RegExWater3 test = new RegExWater3();
+        test.setWaterID("000000");
+        test.setName("-test");
+        test.setWaterAge("10000000000");
+        test.validateInfo();
+    }
+
 
 
 //    @Test

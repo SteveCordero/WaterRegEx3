@@ -56,6 +56,7 @@ public class RegExWater3 {
             System.out.println("Invalid Age");
         }
         System.out.println("Thank You For Entering Your Information");
+        System.out.println();
     }//end validate info method
 
     @Override
