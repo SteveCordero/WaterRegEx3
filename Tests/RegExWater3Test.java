@@ -77,35 +77,35 @@ class RegExWater3Test {
 
 
 
-    @Test
-    void setWaterID() {
-    }
-
-    @Test
-    void getWaterID() {
-    }
-
-    @Test
-    void setWaterAge() {
-    }
-
-    @Test
-    void getWaterAge() {
-    }
-
-    @Test
-    void setName() {
-    }
-
-    @Test
-    void getName() {
-    }
-
-    @Test
-    void validateInfo() {
-    }
-
-    @Test
-    void testToString() {
-    }
+//    @Test
+//    void setWaterID() {
+//    }
+//
+//    @Test
+//    void getWaterID() {
+//    }
+//
+//    @Test
+//    void setWaterAge() {
+//    }
+//
+//    @Test
+//    void getWaterAge() {
+//    }
+//
+//    @Test
+//    void setName() {
+//    }
+//
+//    @Test
+//    void getName() {
+//    }
+//
+//    @Test
+//    void validateInfo() {
+//    }
+//
+//    @Test
+//    void testToString() {
+//    }
 }
