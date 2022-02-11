@@ -7,9 +7,10 @@ public class RegExWater3Driver {
         RegExWater3 watone = new RegExWater3();
         watone.setWaterID("0000000");
 
-        isWaterPresent();
-
-
+        for(int i = 0;i < 3; i++)
+        {
+            isWaterPresent();
+        }
 
     }//end driver method
 
@@ -40,8 +41,7 @@ public class RegExWater3Driver {
                 System.out.println(matcher.lookingAt());
             }
 
-
-        }
+        }//this for loop will cut the down the string each time it reaches a w for the regex to check that string
 
     }
 }
